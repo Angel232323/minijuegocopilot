@@ -1,1 +1,25 @@
 flask
+
+# crea una aplicacion de consola que le pida al usuario elegiar entre 3 opciones
+# las opciones son: 1) piedra 2) papel  3) tijeras
+# la aplicacion debe elegir una opcion al azar y compararla con la opcion del usuario
+# se debe validar que el usuario solo inserte una de las 3 opciones, en caso contrario se debe mostrar un mensaje de alerta y volver a pedir la opcion
+# si la opcion del usuario es igual a la opcion de la aplicacion se debe mostrar un mensaje de empate
+# si la opcion del usuario es diferente a la opcion de la aplicacion se debe comparar las opciones
+# si el usuario elige piedra y la aplicacion elige tijeras, el usuario gana
+# si el usuario elige papel y la aplicacion elige piedra, el usuario gana
+# si el usuario elige tijeras y la aplicacion elige papel, el usuario gana
+# si el usuario elige piedra y la aplicacion elige papel, la aplicacion gana
+# si el usuario elige papel y la aplicacion elige tijeras, la aplicacion gana
+# si el usuario elige tijeras y la aplicacion elige piedra, la aplicacion gana
+# se debe mostrar un mensaje con el resultado de la partida
+# se debe mostrar un mensaje preguntando si el usuario desea volver a jugar
+# si el usuario responde que si, se debe volver a mostrar las opciones
+# si el usuario responde que no, se debe mostrar un mensaje de despedida y cerrar la aplicacion
+# se debe validar que el usuario solo inserte si o no, en caso contrario se debe mostrar un mensaje de alerta y volver a pedir la opcion
+# se debe validar que el usuario solo inserte numeros, en caso contrario se debe mostrar un mensaje de alerta y volver a pedir la opcion
+# se debe validar que el usuario solo inserte numeros enteros, en caso contrario se debe mostrar un mensaje de alerta y volver a pedir la opcion
+# se debe validar que el usuario solo inserte numeros positivos, en caso contrario se debe mostrar un mensaje de alerta y volver a pedir la opcion
+# se debe validar que el usuario solo inserte numeros positivos menores a 4, en caso contrario se debe mostrar un mensaje de alerta y volver a pedir la opcion
+# se debe validar que el usuario solo inserte numeros positivos mayores a 0, en caso contrario se debe mostrar un mensaje de alerta y volver a pedir la opcion
+ 
